@@ -1,10 +1,10 @@
 import React from "react";
-import Setting from '../components/Setting/Setting';
+import Settingg from "../components/Setting/Settingg";
 
 
 const Settings = () => {
   return <>
-    <Setting />
+    <Settingg />
   </>
 };
 
