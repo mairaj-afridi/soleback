@@ -1,10 +1,20 @@
-import React from 'react'
+import React,{useState} from 'react'
 import ActivateCashback from './ActivateCashback';
-
+import Error from './Error';
 
 const Home = () => {
+
+    const [isCashBack,setIsCashBack] = useState(true);
+    const [isError,setIsError] = useState(false);
+
+
     return <>
-    <ActivateCashback  />
+    {isCashBack && <ActivateCashback  setState={()=>{setIsCashBack(false);setIsError(true);
+    }}/>
+    
+    }
+
+       {isError &&  <Error />}
     </>
     
 }
