@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Switch } from '@mantine/core';
 
 import { AiOutlineLaptop } from 'react-icons/ai';
-import { IoNotificationsCircleSharp, IoChevronDownSharp } from 'react-icons/Io5';
+// import { IoNotificationsCircleSharp, IoChevronDownSharp } from 'react-icons/Io5';
 import { FaFlagUsa } from 'react-icons/fa';
 import { MdLanguage } from 'react-icons/md';
 
@@ -56,7 +56,7 @@ const Account = () => {
           <div className='px-3 sm:px-6 w-full'>
             <div className="bg-white-main shadow-lg gap-4 sm:gap-10    w-full  h-[65px] flex items-center justify-start   ">
 
-              <IoNotificationsCircleSharp className='text-[20px] ml-1 cursor-pointer  sm:ml-5 sm:text-[30px] flex-shrink-0' />
+              <MdLanguage className='text-[20px] ml-1 cursor-pointer  sm:ml-5 sm:text-[30px] flex-shrink-0' />
               <div className='flex justify-between w-full  items-center'>
                 <h1 className="text-black-main text-[17px] sm:text-[24px] font-semibold leading-5  font-jakarta  ">Push notification on activation</h1>
                 {/* switch */}
@@ -79,7 +79,7 @@ const Account = () => {
                     <FaFlagUsa className='text-[18px] cursor-pointer  sm:text-[22px] flex-shrink-0' />
                     <div className='flex justify-between w-full  items-center'>
                       <h1 className="text-black-main text-[17px] sm:text-[24px] font-semibold leading-5  font-jakarta  ">Push notification on activation</h1>
-                      <IoChevronDownSharp className='text-[20px] cursor-pointer  sm:text-[30px] flex-shrink-0' />
+                      <MdLanguage className='text-[20px] cursor-pointer  sm:text-[30px] flex-shrink-0' />
                     </div>
                   </div>
                 </div>
