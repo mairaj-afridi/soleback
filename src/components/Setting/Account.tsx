@@ -15,24 +15,23 @@ const Account = () => {
 
   return (
     <section className='rounded-md shadow-md   min-h-[521px] h-full w-full gap-4 sm:gap-8 bg-white-main flex flex-col items-start  justify-start '>
-      {/* fot head/....................... */}
+      {/* ............................ for heading ....................... */}
       <div className="bg-white-main shadow-lg gap-7 h-[65px] w-full flex items-center justify-start   ">
         <h1
           onClick={() => setShowCategories(false)} // Hide Categories section
-          className={`text-brand-main cursor-pointer  pl-5 text-[22px] sm:text-[24px] font-semibold leading-5 font-jakarta ${showCategories ? 'text-black-off' : ''
-            }`}
-        >
+          className={`text-black-o cursor-pointer  pl-5 text-[22px] sm:text-[24px] font-semibold leading-5 font-jakarta ${showCategories ? 'text-black-off' : 'text-brand-main'
+            }`}>
           Account
         </h1>
-        <h1
+        <h2
           onClick={() => setShowCategories(true)} // Show Categories section
-          className={`text-black-off cursor-pointer text-[22px] sm:text-[24px] font-semibold leading-5 font-jakarta ${showCategories ? '' : 'text-black-off'
-            }`}
-        >
+          className={`text-black-off cursor-pointer text-[22px] sm:text-[24px] font-semibold leading-5 font-jakarta ${showCategories ? 'text-brand-main' : 'text-black-off' 
+            }`}>
           Categories
-        </h1>
+        </h2>
       </div>
-      {/* switch div */}
+
+      {/*.................................switch div........................... */}
       {showCategories ? (
         // Categories section
         <Categories />
