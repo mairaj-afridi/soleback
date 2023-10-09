@@ -14,7 +14,7 @@ const Account = () => {
   const [showCategories, setShowCategories] = useState(false);
 
   return (
-    <section className='rounded-md shadow-md   min-h-[521px] h-full w-full gap-4 sm:gap-8 bg-white-main flex flex-col items-start  justify-start '>
+    <section className='rounded-md shadow-md   min-h-[521px] h-full w-full gap-2 sm:gap-4 bg-white-main flex flex-col items-start  justify-start '>
       {/* ............................ for heading ....................... */}
       <div className="bg-white-main shadow-lg gap-7 h-[65px] w-full flex items-center justify-start   ">
         <h1
@@ -39,7 +39,7 @@ const Account = () => {
         // Account sections with Switches, etc.
         <>
           <div className='px-3 sm:px-6 w-full'>
-            <div className="bg-white-main shadow-lg gap-4 sm:gap-10    w-full  h-[65px] flex items-center justify-start   ">
+            <div className="bg-white-main border border-solid cash-box   rounded-[4px] gap-4 sm:gap-10    w-full  h-[65px] flex items-center justify-start   ">
 
               <AiOutlineLaptop className='text-[20px] ml-1 cursor-pointer sm:ml-5 sm:text-[30px] flex-shrink-0' />
               <div className='flex justify-between w-full  items-center'>
@@ -53,7 +53,7 @@ const Account = () => {
             </div>
           </div>
           <div className='px-3 sm:px-6 w-full'>
-            <div className="bg-white-main shadow-lg gap-4 sm:gap-10    w-full  h-[65px] flex items-center justify-start   ">
+            <div className="bg-white-main border border-solid cash-box    gap-4 sm:gap-10    w-full  h-[65px] flex items-center justify-start   ">
 
               <MdLanguage className='text-[20px] ml-1 cursor-pointer  sm:ml-5 sm:text-[30px] flex-shrink-0' />
               <div className='flex justify-between w-full  items-center'>
@@ -67,14 +67,14 @@ const Account = () => {
           </div>
           {/* language....................> */}
           <div className='px-3 sm:px-6  w-full'>
-            <div className="bg-white-mai shadow-lg gap-4 sm:gap-10  w-full  h-full  flex items-start py-3 justify-center   ">
+            <div className="bg-white-mai border border-solid cash-box   gap-4 sm:gap-10  w-full  h-full  flex items-start py-3 justify-center   ">
               <MdLanguage className='text-[20px] ml-1 cursor-pointer  sm:ml-5 sm:text-[30px] flex-shrink-0' />
               <div className='flex gap-3 justify-between w-full flex-col  items-start'>
                 <h1 className="text-black-main text-[17px] sm:text-[24px] font-semibold leading-5  font-jakarta  ">Push notification on activation</h1>
                 <p className='text-[20px] leading-7 '>Choose the language you’d like to use with Soleback. Your <br />
                   language is currently set to: English (US)</p>
                 <div className='w-full max-w-[920px]'>
-                  <div className="bg-white-main shadow-2xl gap-4 p-5   w-full  flex items-center justify-start   ">
+                  <div className="bg-white-main border rounded-[4px]  gap-4 p-5   w-full  flex items-center justify-start   ">
                     <FaFlagUsa className='text-[18px] cursor-pointer  sm:text-[22px] flex-shrink-0' />
                     <div className='flex justify-between w-full  items-center'>
                       <h1 className="text-black-main text-[17px] sm:text-[24px] font-semibold leading-5  font-jakarta  ">Push notification on activation</h1>
@@ -88,7 +88,7 @@ const Account = () => {
 
           {/* account management...................> */}
           <div className='px-3 sm:px-6  w-full'>
-            <div className="bg-white-mai shadow-lg gap-4 sm:gap-10  w-full  h-full  flex items-start py-3 justify-center   ">
+            <div className="bg-white-mai border border-solid cash-box    gap-4 sm:gap-10  w-full  h-full  flex items-start py-3 justify-center   ">
               <MdLanguage className='text-[20px] ml-1 cursor-pointer  sm:ml-5 sm:text-[30px] flex-shrink-0' />
               <div className='flex gap-3 justify-between w-full flex-col  items-start'>
                 <h1 className="text-black-main text-[17px] sm:text-[24px] font-semibold leading-5  font-jakarta  ">Account Management</h1>

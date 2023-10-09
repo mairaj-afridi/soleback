@@ -14,7 +14,7 @@ const Categories = () => {
 
       {Category.map((category) => (
         <div key={category.id} className="px-3 pb-5 sm:px-6 w-full">
-          <div className="bg-white-main shadow-lg gap-4 sm:gap-10 p-6 w-full h-[65px] flex items-center justify-start">
+          <div className="bg-white-main border border-solid cash-box     gap-4 sm:gap-10 p-6 w-full h-[65px] flex items-center justify-start">
             <div className="flex justify-between w-full items-center">
               <h1 className="text-black-main text-[17px] sm:text-[24px] font-semibold leading-5 font-jakarta">
                 {category.name}
@@ -57,4 +57,5 @@ const Category = [
     id: 5,
     name: 'Travel Company',
   },
+  
 ];
