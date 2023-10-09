@@ -5,8 +5,8 @@ import { AiOutlineLaptop } from 'react-icons/ai';
 // import { IoNotificationsCircleSharp, IoChevronDownSharp } from 'react-icons/Io5';
 import { FaFlagUsa } from 'react-icons/fa';
 import { MdLanguage } from 'react-icons/md';
-
 import { BsBoxArrowUpRight } from 'react-icons/bs';
+import { TbLogout } from 'react-icons/tb';
 import Categories from './Categories';
 
 
@@ -14,7 +14,7 @@ const Account = () => {
   const [showCategories, setShowCategories] = useState(false);
 
   return (
-    <section className='rounded-md shadow-md   min-h-[521px] h-full w-full gap-4 sm:gap-8 bg-white-main flex flex-col items-center justify-start '>
+    <section className='rounded-md shadow-md   min-h-[521px] h-full w-full gap-4 sm:gap-8 bg-white-main flex flex-col items-start  justify-start '>
       {/* fot head/....................... */}
       <div className="bg-white-main shadow-lg gap-7 h-[65px] w-full flex items-center justify-start   ">
         <h1
@@ -97,14 +97,31 @@ const Account = () => {
                 <div className='w-full max-w-[920px]'>
 
                 </div>
-                <div className='flex py-[12px] px-[16px] items-center gap-3 shadow-md cash-box rounded-[8px] w-[210px] justify-center br-yellow-600 border border-solid  '>
+                <button className='flex py-[12px] px-[16px] items-center gap-3 shadow-md cash-box rounded-[8px] w-[210px] justify-center br-yellow-600 border border-solid  '>
                   <h1 className=' text-[16px] text-brand-main  font-bold font-jakarta '>Manage Account</h1>
                   <BsBoxArrowUpRight className=' cursor-pointer  text-[18px] flex-shrink-0' />
-
-                </div>
+                </button>
               </div>
             </div>
 
+          </div>
+          <div className='flex flex-row items-center  w-full justify-between '>
+            <div className='flex px-6 pb-6 '>
+
+              <button className='flex  py-[8px] px-[30px] items-center gap-3 shadow-md cash-box rounded-[8px]  justify-center br-yellow-600 border border-solid  '>
+                <TbLogout className=' cursor-pointer  text-[18px] flex-shrink-0' />
+                <h1 className=' text-[16px] text-[#FC3400]    font-bold font-jakarta '>Logout</h1>
+              </button>
+            </div>
+            <div className='flex gap-4  px-6 pb-6 '>
+
+              <button className='flex  py-[8px] px-[20px] items-center gap-3 shadow-md cash-box rounded-[8px]  justify-center br-yellow-600 border border-solid  '>
+                <h1 className=' text-[16px] text-brand-main  font-bold font-jakarta '>Discard</h1>
+              </button>
+              <button className='flex  py-[8px] px-[26px] bg-brand-main items-center gap-3 shadow-md cash-box rounded-[8px]  justify-center br-yellow-600 border border-solid  '>
+                <h1 className=' text-[16px] text-white-main   font-bold font-jakarta '>Save</h1>
+              </button>
+            </div>
           </div>
         </>
       )}
