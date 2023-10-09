@@ -3,7 +3,7 @@ import { Switch } from '@mantine/core';
 
 import { AiOutlineLaptop } from 'react-icons/ai';
 // import { IoNotificationsCircleSharp, IoChevronDownSharp } from 'react-icons/Io5';
-import { FaFlagUsa } from 'react-icons/fa';
+import { FaFlagUsa, FaUserAlt } from 'react-icons/fa';
 import { MdLanguage } from 'react-icons/md';
 import { BsBoxArrowUpRight } from 'react-icons/bs';
 import { BiSolidNotification } from 'react-icons/bi';
@@ -96,7 +96,7 @@ const Account = () => {
           {/* account management...................> */}
           <div className='px-3 sm:px-6  w-full'>
             <div className="bg-white-mai border border-solid cash-box    gap-4 sm:gap-10  w-full  h-full  flex items-start py-3 justify-center   ">
-              <MdLanguage className='text-[20px] ml-1 cursor-pointer  sm:ml-5 sm:text-[30px] flex-shrink-0' />
+              <FaUserAlt className='text-[20px] ml-1 cursor-pointer  sm:ml-5 sm:text-[30px] flex-shrink-0' />
               <div className='flex gap-3  w-full flex-col '>
                 <h1 className="text-black-main text-[17px] sm:text-[24px] font-semibold leading-5  font-jakarta  ">Account Management</h1>
                 <p className='text-[16px] sm:text-[20px] leading-5 sm:leading-7 '>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a <br /> piece of classical Latin literature from</p>
