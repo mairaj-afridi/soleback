@@ -9,20 +9,25 @@
 }
 
 .google-icon {
-  background: linear-gradient(
-    143deg,
-    rgba(255, 61, 0, 0.1) 14.12%,
-    rgba(255, 193, 7, 0.1) 36.18%,
-    rgba(76, 175, 80, 0.1) 54.82%,
-    rgba(25, 118, 210, 0.1) 87.16%
-  );
+  background: linear-gradient(143deg,
+      rgba(255, 61, 0, 0.1) 14.12%,
+      rgba(255, 193, 7, 0.1) 36.18%,
+      rgba(76, 175, 80, 0.1) 54.82%,
+      rgba(25, 118, 210, 0.1) 87.16%);
 }
 
 /* shadow */
-.cash-box{
+.cash-box {
   border: solid #E6E6E6;
   box-shadow: 0px 1.5px 4px -1px rgba(10, 9, 11, 0.07);
 }
+
 .home-shadow {
   box-shadow: 0px 23px 44px 0px rgba(176, 183, 195, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.pop-sho {
+  border-radius: 3.706px;
+  border: 0.695px solid #EDEDED;
+  background: #FAFAFA;
 }

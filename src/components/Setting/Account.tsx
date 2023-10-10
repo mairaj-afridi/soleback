@@ -46,7 +46,7 @@ const Account = () => {
         // Account sections with Switches, etc.
         <>
           <div className='px-3 sm:px-6 w-full'>
-            <div className="bg-white-main border border-solid cash-box   rounded-[4px] gap-4 sm:gap-10    w-full  h-[65px] flex items-center justify-start   ">
+            <div className="bg-white-main border border-solid cash-box   rounded-[6px]  gap-4 sm:gap-10    w-full  h-[65px] flex items-center justify-start   ">
 
               <AiOutlineLaptop className='text-[20px] ml-1 cursor-pointer sm:ml-5 sm:text-[30px] flex-shrink-0' />
               <div className='flex justify-between w-full  items-center'>
@@ -60,7 +60,7 @@ const Account = () => {
             </div>
           </div>
           <div className='px-3 sm:px-6 w-full'>
-            <div className="bg-white-main border border-solid cash-box    gap-4 sm:gap-10    w-full  h-[65px] flex items-center justify-start   ">
+            <div className="bg-white-main border  rounded-[6px] border-solid cash-box    gap-4 sm:gap-10    w-full  h-[65px] flex items-center justify-start   ">
 
               <BiSolidNotification className='text-[20px] ml-1 cursor-pointer  sm:ml-5 sm:text-[30px] flex-shrink-0' />
               <div className='flex justify-between w-full  items-center'>
@@ -74,7 +74,7 @@ const Account = () => {
           </div>
           {/* language....................> */}
           <div className='px-3 sm:px-6  w-full'>
-            <div className="bg-white-mai border border-solid cash-box   gap-4 sm:gap-10  w-full  h-full  flex items-start py-3 justify-center   ">
+            <div className="bg-white-mai border border-solid cash-box  rounded-[6px]    gap-4 sm:gap-10  w-full  h-full  flex items-start py-3 justify-center   ">
               <HiMiniLanguage className='text-[20px] ml-1 cursor-pointer  sm:ml-5 sm:text-[30px] flex-shrink-0' />
               <div className='flex gap-3 justify-between w-full flex-col  items-start'>
                 <h1 className="text-black-main text-[17px] sm:text-[24px] font-semibold leading-5  font-jakarta  ">Push notification on activation</h1>
@@ -95,7 +95,7 @@ const Account = () => {
 
           {/* account management...................> */}
           <div className='px-3 sm:px-6  w-full'>
-            <div className="bg-white-mai border border-solid cash-box    gap-4 sm:gap-10  w-full  h-full  flex items-start py-3 justify-center   ">
+            <div className="bg-white-mai border border-solid cash-box  rounded-[6px]    gap-4 sm:gap-10  w-full  h-full  flex items-start py-3 justify-center   ">
               <FaUserAlt className='text-[20px] ml-1 cursor-pointer  sm:ml-5 sm:text-[30px] flex-shrink-0' />
               <div className='flex gap-3  w-full flex-col '>
                 <h1 className="text-black-main text-[17px] sm:text-[24px] font-semibold leading-5  font-jakarta  ">Account Management</h1>
